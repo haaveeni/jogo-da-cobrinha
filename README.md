@@ -1,7 +1,7 @@
 # <p align="center">📱🐍 JOGO DA COBRINHA </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/haaveeni/(jogo-da-cobrinha?color=%23b21104">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/haaveeni/jogo-da-cobrinha?color=%23b21104">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/haaveeni%2Fjogo-da-cobrinha?color=%23b21104">
   
@@ -15,13 +15,14 @@
 
 <p align="center">
 	<!-- <img alt="Status Em Desenvolvimento" src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green"> -->
-<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
+<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-REFATORACAO-orange">
 </p>
 
 ## 💻 Sobre o projeto
+
+Este projeto é uma recriação do nostálgico jogo Snake, foi feito em HTML, CSS e JS em 2020 e está sendo refatorado em 2024. Para acompanhar o quadro kanban do processo, clique <a href="https://github.com/users/haaveeni/projects/4">aqui</a>.<br/><br/>
 Serpente, Snake, ou popularmente conhecido no Brasil como Jogo da Cobrinha, é um jogo de 1976 que iniciou no Blockade (arcade), tendo versões em videogames, computadores e celulares.<br/><br/>
-O jogador controla a cabeça de uma cobra para cima, baixo, esquerda e direita, direcionando-a para a comida. Quando ela come a comida, ela fica maior, o que adiciona dificuldade no jogo. A cobra não pode colidir com o próprio corpo. <br/><br/>
-Este projeto foi feito em HTML, CSS e JS. 
+O jogador controla a cabeça de uma cobra para cima, baixo, esquerda e direita, direcionando-a para a comida. Quando ela come a comida, ela fica maior, o que adiciona dificuldade no jogo. A cobra não pode colidir com o próprio corpo. <br/>
 
 ---
 
