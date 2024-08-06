@@ -14,19 +14,19 @@ let food = {
 }
 
 function criarBG() {
-    context.fillStyle = "#AF8FC7";
+    context.fillStyle = "#a9e000";
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
 function criarCobrinha(){
     for(i=0; i < snake.length; i++){
-        context.fillStyle = "brown";
+        context.fillStyle = "#242f01";
         context.fillRect(snake[i].x, snake[i].y, box,box);
     }
 }
 
 function drawFood(){
-    context.fillStyle = "green";
+    context.fillStyle = "#242f01";
     context.fillRect(food.x, food.y, box, box);
 }
 
@@ -80,4 +80,4 @@ function iniciarJogo(){
 
 }
 
-let jogo = setInterval(iniciarJogo, 120);
+let jogo = setInterval(iniciarJogo, 200);
