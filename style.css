@@ -10,3 +10,7 @@ body {
 h1 {
     font-family: "Pixelify Sans", sans-serif;
 }
+
+#snake {
+    border: 4px solid gray;
+}
