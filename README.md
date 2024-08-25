@@ -27,7 +27,7 @@ O jogador controla a cabeça de uma cobra para cima, baixo, esquerda e direita, 
 ---
 
 ## ⚙️ Funcionalidades
-
+- [x] Inicialização do jogo ao clicar no botão Start
 - [x] Movimentação da cobra em quatro direções.
 - [x] Crescimento da cobra ao comer comida.
 - [x] Game over ao colidir com o próprio corpo.
