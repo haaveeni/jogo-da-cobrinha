@@ -1,17 +1,21 @@
-let canvas = document.getElementById("snake");
+const startButton = document.getElementById('start-btn');
+let canvas = document.getElementById("gameCanvas");
 let context = canvas.getContext("2d");
 let box = 32;
 let snake = [];
 snake[0] = {
     x: 8 * box,
     y: 8 * box
-}
+
+};
+
 let direction = "right";
 let food = {
     x: Math.floor(Math.random() * 15 + 1) * box,
     y: Math.floor(Math.random() * 15 + 1) * box
-
 }
+
+let jogo;
 
 function criarBG() {
     context.fillStyle = "#000000";
@@ -81,4 +85,13 @@ function iniciarJogo() {
 
 }
 
-let jogo = setInterval(iniciarJogo, 200);
+criarBG();
+criarCobrinha();
+drawFood();
+
+startButton.addEventListener('click', () => {
+    if (!jogo) {
+        jogo = setInterval(iniciarJogo, 200);
+    }
+
+});
