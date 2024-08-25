@@ -6,7 +6,10 @@ let snake = [];
 snake[0] = {
     x: 8 * box,
     y: 8 * box
-
+};
+snake[1] = {
+    x: 7 * box,
+    y: 8 * box
 };
 
 let direction = "right";
