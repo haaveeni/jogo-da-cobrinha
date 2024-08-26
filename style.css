@@ -6,9 +6,45 @@
     color: #fff;
 }
 
-#the-game {
-    height: 95vh;
-    width: 95vh;
+html {
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    height: 10rem;
+    margin: 0 10.8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span {
+    font-size: 3rem;
+}
+
+.unorder-menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #c6e518;
+    font-size: 2rem;
+}
+
+.menu-link:hover {
+    color: #C7C7C7;
+}
+
+#snake {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#game-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +52,7 @@
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 h1,
@@ -26,22 +62,17 @@ button {
 }
 
 #gameCanvas {
-    border: 4px solid gray;
+    border: 0.4rem solid gray;
 }
 
 button {
     display: block;
-    margin: 20px 0;
-    padding: 14px;
+    margin: 2rem 0;
+    padding: 1.4rem;
     background-color: #fff;
     color: #000;
     font-size: larger;
-    border-radius: 100px;
-}
-
-body {
-    display: flex;
-    justify-content: space-evenly;
+    border-radius: 10rem;
 }
 
 #game-info {
@@ -51,6 +82,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: larger;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
 }
