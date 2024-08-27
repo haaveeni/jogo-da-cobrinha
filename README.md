@@ -40,7 +40,10 @@ O jogador controla a cabeça de uma cobra para cima, baixo, esquerda e direita, 
 
 ### Web
 
-(INSERIR PRINTS/VIDEO)
+
+https://github.com/user-attachments/assets/45b927d7-8e25-478b-85a0-c044593ecea3
+
+
 
 ---
 
